@@ -323,7 +323,7 @@ def tokenize(text, lang='en'):
 @st.cache_resource(show_spinner=False)
 def load_pipeline():
     device = torch.device('cpu')
-    d = Path(__file__).parent / 'saved_model'
+   d = Path(__file__).parent
 
     with open(d / 'src_vocab.pkl', 'rb') as f: sv  = pickle.load(f)
     with open(d / 'tgt_vocab.pkl', 'rb') as f: tv  = pickle.load(f)
