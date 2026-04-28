@@ -10,3 +10,7 @@
 \outl0\strokewidth0 \strokec2 streamlit>=1.32.0 \
 torch>=2.0.0\
  numpy>=1.24.0}
+--index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2+cpu
+numpy>=1.24.0
+streamlit>=1.32.0
